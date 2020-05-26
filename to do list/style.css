@@ -1,0 +1,84 @@
+*{
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+	font-family: 'Courgette', cursive;
+	text-align:center;
+	background-color:rgb(29, 91, 115);
+	user-select:none;
+
+}
+h1, h2, input{
+	padding:10px;
+	margin:10px;
+	color:white;
+}
+input{
+	width:50%;
+	background-color:rgb(183, 115, 40);
+	border-radius:10px;
+	outline:none;
+	font-size:20px;
+}
+button{
+	width:40px;
+	height:40px;
+	font-size:20px;
+	border-radius:10px;
+	background-color:rgb(183, 115, 40);
+	outline:none;
+}
+button:hover{
+	cursor:pointer;
+	background-color:rgb(232, 142, 73);
+	transition:1s ease;
+}
+input:focus{
+	background-color:rgb(232, 142, 73);
+	transition:2s ease;
+}
+.list-container{
+	align-content:center;
+	width:100%;
+}
+ul{
+	width:100%;
+	text-align:center;
+}
+ul li{
+	list-style-type: none;
+	width:62%;
+	height:50px;
+	margin-left:20%;
+	margin-bottom:10px;
+	margin-top:10px;
+	background-color:rgb(183, 115, 40);
+	padding:10px;
+	border-radius:10px;
+	text-align:left;
+}
+div, p, li:hover{
+	cursor:pointer;
+	background-color:rgb(232, 142, 73);
+	box-shadow:0px 1px 1px 0px gray;
+	transition:1s ease;
+}
+div{
+	float:left;
+	background-color:rgb(183, 115, 40);
+	user-select:none;
+}
+p{
+	float:right;
+	background-color:rgb(183, 115, 40);
+	width:20px;
+	font-size:20px;
+	user-select: none;
+
+}
+#txtbox{
+	padding:5px;
+	cursor:auto;
+
+}
+
